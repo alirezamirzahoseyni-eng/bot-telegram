@@ -20,7 +20,7 @@ currency_keyboard.add(KeyboardButton('DOTUSDT'))
 def send_welcome(message):
     bot.reply_to(
         message,
-        'Hello dear, what currency do you want the price?,(درضمن زهرا خر است)',
+        'Hello dear, what currency do you want the price!',
         reply_markup=currency_keyboard
     )
 
