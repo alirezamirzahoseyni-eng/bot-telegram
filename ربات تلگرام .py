@@ -26,7 +26,7 @@ def send_welcome(message):
                       message.from_user.username, "start")
     bot.reply_to(
         message,
-        'Hello dear, what currency do you want the price?(کس عمه زهرا)',
+        'Hello dear, what currency do you want the price?',
         reply_markup=currency_keyboard
     )
 
